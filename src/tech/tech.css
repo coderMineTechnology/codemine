@@ -1,0 +1,26 @@
+.techHead{
+    margin-top: 2.4rem;
+    color: black;
+}
+.techImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 2rem;
+    
+}
+    @media (max-width: 768px) {
+        .techImages{
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
+.techImages img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    transition: transform 0.2s;
+    border-radius: 20px;
+}
