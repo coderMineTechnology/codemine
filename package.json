@@ -1,5 +1,7 @@
 {
+  
   "name": "codemine",
+  "homepage": "https://coderminetechnology.github.io/codemine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
